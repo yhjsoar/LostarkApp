@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="resId">
+        <item>@drawable/arrow_down</item>
+        <item>@drawable/arrow_down</item>
+    </integer-array>
+
+    <string-array name="title">
+        <item>기에나의 바다</item>
+        <item>프로키온의 바다</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>(0/X)</item>
+        <item>(0/X)</item>
+    </string-array>
+</resources>
