@@ -1,17 +1,418 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer-array name="resId">
-        <item>@drawable/arrow_down</item>
-        <item>@drawable/arrow_down</item>
+    <string-array name="location">
+        <item>아르테미스</item>
+        <item>유디아</item>
+        <item>루테란 서부</item>
+        <item>루테란 동부</item>
+        <item>애니츠</item>
+        <item>아르데타인</item>
+        <item>베른 북부</item>
+        <item>슈샤이어</item>
+        <item>로헨델</item>
+        <item>기에나</item>
+        <item>프로키온</item>
+    </string-array>
+
+    <string-array name = "artemis">
+        <item>레온하트</item>
+        <item>로그힐</item>
+        <item>독발톱 도굴단의 동굴</item>
+        <item>안게모스 산 기슭</item>
+        <item>아길로스의 머리</item>
+        <item>국경지대</item>
+        <item>아길로스의 꼬리</item>
+    </string-array>
+
+    <string-array name="yudia">
+        <item>실란드 구릉지</item>
+        <item>모라이 유적</item>
+        <item>오즈혼 구릉지</item>
+        <item>사피라 동굴</item>
+    </string-array>
+
+    <string-array name="luteranWest">
+        <item>자고라스 산</item>
+        <item>레이크바</item>
+        <item>광휘의 능선</item>
+        <item>메드리닉 수도원</item>
+        <item>빌브린숲</item>
+        <item>회색 망치 광산</item>
+        <item>격전의 평야</item>
+    </string-array>
+
+    <string-array name="luteranEast">
+        <item>루테란 성</item>
+        <item>디오리카 평원</item>
+        <item>해무리 언덕</item>
+        <item>라스트라 숲</item>
+        <item>배꽃나무 자생지</item>
+        <item>흑장미 교회당</item>
+        <item>교회당 지하</item>
+        <item>라이아 단구</item>
+        <item>보레아 영지</item>
+        <item>갈기파도 항구</item>
+        <item>크로커니스 해변</item>
+        <item>크라잉 스톰</item>
+    </string-array>
+
+    <string-array name="enich">
+        <item>항구도시 창천</item>
+        <item>델파이 현</item>
+        <item>만월의 고택</item>
+        <item>등나무 언덕</item>
+        <item>연의 결계</item>
+        <item>소리의 숲</item>
+        <item>적의 결계</item>
+        <item>거울계곡</item>
+        <item>황혼의 연무</item>
+        <item>삶과 죽음의 경계</item>
+    </string-array>
+
+    <integer-array name="artemis_mococo">
+        <item>9</item>
+        <item>9</item>
+        <item>6</item>
+        <item>5</item>
+        <item>6</item>
+        <item>10</item>
+        <item>6</item>
     </integer-array>
 
-    <string-array name="title">
-        <item>기에나의 바다</item>
-        <item>프로키온의 바다</item>
+    <integer-array name="yudia_mococo">
+        <item>9</item>
+        <item>11</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+
+    <integer-array name="luteranWest_mococo">
+        <item>12</item>
+        <item>11</item>
+        <item>7</item>
+        <item>13</item>
+        <item>9</item>
+        <item>12</item>
+        <item>7</item>
+    </integer-array>
+
+    <integer-array name="luteranEast_mococo">
+        <item>10</item>
+        <item>11</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>13</item>
+        <item>8</item>
+        <item>8</item>
+        <item>11</item>
+        <item>6</item>
+        <item>18</item>
+        <item>12</item>
+    </integer-array>
+
+    <integer-array name="enich_mococo">
+        <item>4</item>
+        <item>4</item>
+        <item>10</item>
+        <item>10</item>
+        <item>7</item>
+        <item>8</item>
+        <item>7</item>
+        <item>7</item>
+        <item>10</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="ardetain">
+        <item>메마른 통로</item>
+        <item>슈테른</item>
+        <item>갈라진 땅</item>
+        <item>전투개미 둥지</item>
+        <item>네벨호른</item>
+        <item>크라테르의 심장</item>
+        <item>바람결 구릉지</item>
+        <item>토토리치</item>
+        <item>아이히만의 연구 기지</item>
+        <item>리제 폭포</item>
+        <item>에어가이츠</item>
+        <item>붉은 모래 사막</item>
     </string-array>
 
-    <string-array name="content">
-        <item>(0/X)</item>
-        <item>(0/X)</item>
+    <integer-array name="ardetain_mococo">
+        <item>7</item>
+        <item>14</item>
+        <item>8</item>
+        <item>7</item>
+        <item>8</item>
+        <item>7</item>
+        <item>9</item>
+        <item>8</item>
+        <item>5</item>
+        <item>10</item>
+        <item>1</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="baereun">
+        <item>크로나 항구</item>
+        <item>베른성</item>
+        <item>라니아 마을</item>
+        <item>파르나 숲</item>
+        <item>페스나르 고원</item>
+        <item>베르닐 삼림</item>
+        <item>고르곤의 둥지</item>
+        <item>발란카르 산맥</item>
+        <item>고대 유적 엘베리아</item>
     </string-array>
+
+    <integer-array name="baereun_moccoo">
+        <item>12</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+        <item>8</item>
+        <item>10</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="shushire">
+        <item>얼어붙은 바다</item>
+        <item>리겐스 마을</item>
+        <item>칼날 바람 언덕</item>
+        <item>서리 감옥 고원</item>
+        <item>서클사이드</item>
+        <item>머무른 시간의 호수</item>
+        <item>비에단의 은신처</item>
+        <item>얼음나비 절벽</item>
+    </string-array>
+
+    <integer-array name="shushire_mococo">
+        <item>9</item>
+        <item>7</item>
+        <item>9</item>
+        <item>9</item>
+        <item>3</item>
+        <item>9</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <string-array name="rohendel">
+        <item>은빛 물결 호수</item>
+        <item>로아룬</item>
+        <item>유리연꽃 호수</item>
+        <item>바람향기 언덕</item>
+        <item>엘조윈의 그늘</item>
+        <item>파괴된 제나일</item>
+        <item>정령의 땅</item>
+        <item>몽환의 궁전</item>
+    </string-array>
+
+    <integer-array name="rohendel_mococo">
+        <item>10</item>
+        <item>10</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>7</item>
+        <item>6</item>
+    </integer-array>
+
+    <string-array name="giena_island">
+        <item>거대버섯 섬</item>
+        <item>거북섬</item>
+        <item>검은이빨의 주둔지</item>
+        <item>고요의 섬</item>
+        <item>그릇된 욕망의 섬</item>
+        <item>기회의 섬</item>
+        <item>꿈꾸는 갈매기 섬</item>
+        <item>노토스 섬</item>
+        <item>도망자들의 마을</item>
+        <item>두키섬</item>
+        <item>로팡 섬</item>
+        <item>리베하임</item>
+        <item>메데이아</item>
+        <item>메르시아</item>
+        <item>메테오라 섬</item>
+        <item>무릉도원</item>
+        <item>별빛 등대의 섬</item>
+        <item>볼라르 섬</item>
+        <item>부서진 빙하의 섬</item>
+        <item>붐블림 아일랜드</item>
+        <item>비밀기지 X-301</item>
+        <item>비키니 아일랜드</item>
+        <item>세월의 섬</item>
+        <item>스피다 섬</item>
+        <item>슬라임 아일랜드</item>
+        <item>신월의 섬</item>
+        <item>아르곤</item>
+        <item>알라케르 섬</item>
+        <item>알트아이젠</item>
+        <item>얼음 미로의 섬</item>
+        <item>얼음과 불의 섬</item>
+        <item>에라스모의 섬</item>
+        <item>에버그레이스의 둥지</item>
+        <item>에스텔라</item>
+        <item>오르비스 섬</item>
+        <item>외로운 섬 오페르</item>
+        <item>우거진 갈대의 섬</item>
+        <item>잊혀진 자들의 도시</item>
+        <item>자유의 섬</item>
+        <item>작은 행운의 섬</item>
+        <item>잠자는 노래의 섬</item>
+        <item>죽음의 협곡</item>
+        <item>지혜의 섬</item>
+        <item>짙은 안개 능선</item>
+        <item>칼트헤르츠</item>
+        <item>클럽 아비뉴</item>
+        <item>토토실버 섬</item>
+        <item>토토피아</item>
+        <item>판다 푸푸 섬</item>
+        <item>포르투나 섬</item>
+        <item>포르페</item>
+        <item>포모나 섬</item>
+        <item>하얀 파도의 섬</item>
+        <item>해바라기 섬</item>
+        <item>해상 낙원 페이토</item>
+        <item>해적마을 아틀라스</item>
+        <item>혹한의 안식처</item>
+        <item>환각의 섬</item>
+        <item>황금 물결 섬</item>
+        <item>회상의 섬</item>
+    </string-array>
+
+    <integer-array name="giena_mococo">
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>6</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>6</item>
+        <item>3</item>
+        <item>7</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>5</item>
+        <item>7</item>
+        <item>3</item>
+        <item>0</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>6</item>
+        <item>5</item>
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="procyon_island">
+        <item>갈망의 섬</item>
+        <item>격류의 섬</item>
+        <item>고립된 영원의 섬</item>
+        <item>고블린 섬</item>
+        <item>고요한 안식의 섬</item>
+        <item>그림자의 섬</item>
+        <item>기약의 섬</item>
+        <item>나루니 섬</item>
+        <item>니헬타로프의 상념</item>
+        <item>메투스 제도</item>
+        <item>몬테 섬</item>
+        <item>몽환의 섬</item>
+        <item>무법자의 섬</item>
+        <item>미지의 섬</item>
+        <item>바다의 요람 페르마타</item>
+        <item>발푸르기스</item>
+        <item>발푸르기스의 밤</item>
+        <item>블루홀 섬</item>
+        <item>수라도</item>
+        <item>아트로포스</item>
+        <item>안개의 섬</item>
+        <item>왜곡된 차원의 섬</item>
+        <item>지고의 섬</item>
+        <item>카마인의 주둔지</item>
+        <item>태초의 섬</item>
+        <item>하모니 섬</item>
+        <item>환영나비 섬</item>
+        <item>황혼의 섬</item>
+        <item>휴양지 그라비스</item>
+        <item>희망의 섬</item>
+        <item>히프노스의 눈</item>
+    </string-array>
+
+    <integer-array name="procyon_mococo">
+        <item>3</item>
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>0</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>0</item>
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
 </resources>

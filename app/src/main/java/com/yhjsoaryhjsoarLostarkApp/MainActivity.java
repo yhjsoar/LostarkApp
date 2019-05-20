@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    static final String[] LIST_MENU = {"섬의 마음 수집"} ;
+    static final String[] LIST_MENU = {"섬의 마음 수집", "모코코 수집"} ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,13 @@ public class MainActivity extends AppCompatActivity {
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(MainActivity.this, IslandList.class);
+                Intent intent;
+                if(position == 0){
+                    intent = new Intent(MainActivity.this, IslandList.class);
+                } else{
+                    intent = new Intent(MainActivity.this, MococoList.class);
+                }
+
                 startActivity(intent);
             }
         });
