@@ -1,20 +1,14 @@
-package com.yhjsoaryhjsoarLostarkApp;
+package com.yhjsoaryhjsoarLostarkApp.Mococo;
 
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
-import android.widget.Adapter;
-import android.widget.AdapterView;
 import android.widget.ExpandableListView;
-import android.widget.LinearLayout;
+
+import com.yhjsoaryhjsoarLostarkApp.R;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class MococoList extends AppCompatActivity {
     int[] numList = new int[11];
@@ -29,7 +23,7 @@ public class MococoList extends AppCompatActivity {
     public int[] total_get = new int[11];
 
     private ExpandableListView listView;
-    ExpandAdapter adapter;
+    ExpandAdapterMococo adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +43,7 @@ public class MococoList extends AppCompatActivity {
             DataList.add(mococogroup);
         }
 
-        adapter = new ExpandAdapter(getApplicationContext(), R.layout.mococo_parent, R.layout.mococo_child, DataList, this);
+        adapter = new ExpandAdapterMococo(getApplicationContext(), R.layout.mococo_parent, R.layout.mococo_child, DataList, this);
         listView.setAdapter(adapter);
     }
 

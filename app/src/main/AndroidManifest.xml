@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MococoList" />
-        <activity android:name=".IslandList" />
+        <activity android:name=".CollectList"></activity>
+        <activity android:name=".HeartNArt.HeartNArtList" />
+        <activity android:name=".Mococo.MococoList" />
+        <activity android:name=".Island.IslandList" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

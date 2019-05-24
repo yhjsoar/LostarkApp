@@ -1,4 +1,4 @@
-package com.yhjsoaryhjsoarLostarkApp;
+package com.yhjsoaryhjsoarLostarkApp.Mococo;
 
 public class mococoChild {
     private String location;

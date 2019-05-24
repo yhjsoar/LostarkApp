@@ -415,4 +415,151 @@
         <item>3</item>
         <item>5</item>
     </integer-array>
+
+    <string-array name="giena_island_list">
+        <item>거대버섯 섬</item>
+        <item>거북 섬</item>
+        <item>검은 이빨의 주둔지</item>
+        <item>고요의 섬</item>
+        <item>그릇된 욕망의 섬</item>
+        <item>기회의 섬</item>
+        <item>꿈꾸는 갈매기 섬</item>
+        <item>노토스 섬</item>
+        <item>도망자들의 마을</item>
+        <item>두키 섬</item>
+        <item>로팡 섬</item>
+        <item>리베하임</item>
+        <item>메데이아</item>
+        <item>무릉도원</item>
+        <item>별빛등대의 섬</item>
+        <item>볼라르 섬</item>
+        <item>부서진 빙하의 섬</item>
+        <item>비밀기지 X-301</item>
+        <item>비키니 아일랜드</item>
+        <item>세월의 섬</item>
+        <item>스피다 섬</item>
+        <item>슬라임 아일랜드</item>
+        <item>신월의 섬</item>
+        <item>아르곤</item>
+        <item>알라케르</item>
+        <item>알트아이젠</item>
+        <item>얼음과 불의 섬</item>
+        <item>얼음 미로의 섬</item>
+        <item>에라스모의 섬</item>
+        <item>에버그레이스의 둥지</item>
+        <item>에스텔라</item>
+        <item>오르비스 섬</item>
+        <item>외로운 섬 오페르</item>
+        <item>우거진 갈대의 섬</item>
+        <item>잊혀진 자들의 도시</item>
+        <item>자유의 섬</item>
+        <item>작은 행운의 섬</item>
+        <item>잠자는 노래의 섬</item>
+        <item>죽음의 협곡</item>
+        <item>지혜의 섬</item>
+        <item>칼트헤르츠</item>
+        <item>클럽 아비뉴</item>
+        <item>토토실버 섬</item>
+        <item>토토피아</item>
+        <item>판타 푸푸 섬</item>
+        <item>포르투나</item>
+        <item>포르페</item>
+        <item>포모나 섬</item>
+        <item>하얀파도 섬</item>
+        <item>해바라기의 섬</item>
+        <item>해상낙원 페이토</item>
+        <item>해적마을 아틀라스</item>
+        <item>환각의 섬</item>
+        <item>황금물결 섬</item>
+        <item>회상의 섬</item>
+    </string-array>
+
+    <string-array name="procyon_island_list">
+        <item>갈망의 섬</item>
+        <item>격류의 섬</item>
+        <item>고블린 섬</item>
+        <item>고요한 안식의 섬</item>
+        <item>그림자의 섬</item>
+        <item>기약의 섬</item>
+        <item>나루니 섬</item>
+        <item>무법자의 섬</item>
+        <item>몬테 섬</item>
+        <item>몽환의 섬</item>
+        <item>미지의 섬</item>
+        <item>바다의 요람 페르마타</item>
+        <item>발푸르기스</item>
+        <item>블루홀 섬</item>
+        <item>수라도</item>
+        <item>아트로포스</item>
+        <item>안개의 섬</item>
+        <item>왜곡된 차원의 섬</item>
+        <item>지고의 섬</item>
+        <item>카마인의 주둔지</item>
+        <item>하모니 섬</item>
+        <item>황혼의 섬</item>
+        <item>휴양지 그라비스</item>
+        <item>히프노스의 눈</item>
+        <item>희망의 섬</item>
+    </string-array>
+
+    <string-array name="heartGroup">
+        <item>모험의 서</item>
+        <item>퀘스트</item>
+        <item>호감도</item>
+        <item>실리안</item>
+        <item>퀘스트</item>
+        <item>항해</item>
+        <item>항해</item>
+        <item>항해</item>
+        <item>교환</item>
+        <item>교환</item>
+        <item>교환</item>
+        <item>사냥</item>
+        <item>교환</item>
+        <item>퀘스트</item>
+        <item>퀘스트</item>
+    </string-array>
+
+    <string-array name="artGroup">
+        <item>교환</item>
+        <item>에포나</item>
+        <item>모험의 서</item>
+        <item>모험의 서</item>
+        <item>모험의 서</item>
+        <item>모험의 서</item>
+        <item>모험의 서</item>
+        <item>모험의 서</item>
+        <item>모험의 서</item>
+        <item>모험의 서</item>
+        <item>호감도</item>
+        <item>호감도</item>
+        <item>호감도</item>
+        <item>호감도</item>
+        <item>호감도</item>
+        <item>교환</item>
+        <item>항해</item>
+        <item>교환</item>
+        <item>항해</item>
+        <item>교환</item>
+        <item>항해</item>
+        <item>항해</item>
+        <item>항해</item>
+        <item>평판</item>
+        <item>평판</item>
+        <item>평판</item>
+        <item>평판</item>
+        <item>평판</item>
+        <item>퀘스트</item>
+        <item>퀘스트</item>
+        <item>퀘스트</item>
+        <item>퀘스트</item>
+        <item>퀘스트</item>
+        <item>교환</item>
+        <item>실리안</item>
+        <item>실리안</item>
+        <item>실리안</item>
+        <item>교환</item>
+        <item>교환</item>
+        <item>교환</item>
+    </string-array>
 </resources>

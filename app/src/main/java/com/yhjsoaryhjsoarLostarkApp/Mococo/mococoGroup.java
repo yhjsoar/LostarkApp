@@ -1,4 +1,4 @@
-package com.yhjsoaryhjsoarLostarkApp;
+package com.yhjsoaryhjsoarLostarkApp.Mococo;
 
 import android.widget.TextView;
 

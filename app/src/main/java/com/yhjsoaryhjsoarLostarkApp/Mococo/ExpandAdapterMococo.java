@@ -1,25 +1,21 @@
-package com.yhjsoaryhjsoarLostarkApp;
+package com.yhjsoaryhjsoarLostarkApp.Mococo;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.provider.ContactsContract;
-import android.text.method.DateKeyListener;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.yhjsoaryhjsoarLostarkApp.R;
 
 import java.util.ArrayList;
 
-public class ExpandAdapter extends BaseExpandableListAdapter {
+public class ExpandAdapterMococo extends BaseExpandableListAdapter {
     private Context context;
     private int groupLayout = 0;
     private int chlidLayout = 0;
@@ -28,9 +24,7 @@ public class ExpandAdapter extends BaseExpandableListAdapter {
 
     MococoList mococoList;
 
-    //ExpandAdapter adapter;
-
-    public ExpandAdapter(Context context, int groupLay, int chlidLay, ArrayList<mococoGroup> DataList, MococoList mococoList){
+    public ExpandAdapterMococo(Context context, int groupLay, int chlidLay, ArrayList<mococoGroup> DataList, MococoList mococoList){
         this.DataList = DataList;
         this.groupLayout = groupLay;
         this.chlidLayout = chlidLay;
